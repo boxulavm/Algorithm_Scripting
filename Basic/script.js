@@ -42,7 +42,7 @@
 //         return 1;
 //     } else {
 
-//         for(i = 1; i < count; i++){
+//         for(let i = 1; i < count; i++){
 //             num = num*i
 //         }
 //         return num;
@@ -64,7 +64,7 @@
 //     const arrayOfStrings = str.split(' ');
 //     let LongestString = '';
 
-//     for ( i = 0; i < arrayOfStrings.length; i++ ){
+//     for ( let i = 0; i < arrayOfStrings.length; i++ ){
 //         if(LongestString.length < arrayOfStrings[i].length){
 //             LongestString = arrayOfStrings[i]
 //         }
@@ -86,9 +86,9 @@
 // const largestOfFour = arr => {
 //     let largestArr = [];
 
-//     for(i = 0; i < arr.length; i++){
+//     for(let i = 0; i < arr.length; i++){
 //         let largestNum = 0;
-//         for( j = 0; j < arr.length; j++){
+//         for(let j = 0; j < arr.length; j++){
 //             if(largestNum < arr[i][j]){
 //                 largestNum = arr[i][j]
 //             }
@@ -203,7 +203,7 @@
 
 
 
-// #11 ****************************** Boo Woo ******************************
+// #11 ****************************** Title Case a Sentence ******************************
 // Title Case a Sentence. For the purpose of this exercise, you should also capitalize connecting words like "the" and "of".
 
 
